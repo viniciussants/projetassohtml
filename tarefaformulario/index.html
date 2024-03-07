@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa de formulário</title>
+</head>
+<body>
+    <p><a href="../index.html"><button>Home</button></a></p>
+    <h1>Formulário de Inscrição em Evento</h1>
+    <form>
+        <fieldset>
+            <label for="nc">Nome Completo:</label>
+            <input type="text" name="nome" id="nc" required/><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required/><br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="masc" id="masc">
+            <label for="masc">Masculino</label>&nbsp;&nbsp;
+            <input type="radio" name="masc" id="masc">
+            <label for="fem">Feminino</label><br>
+
+            <label for="carg">Cargo:</label>
+            <input type="text" name="cargo" id="carg"><br>
+            <label for="nasc">Nascimento:</label>
+            <input type="date" name="nascimento" id="nasc">
+            
+        </fieldset>
+        <h3>Informações da Instituição</h3>
+        <h5>Preencha os campos abaixo com as Informações da empresa em que trabalha.</h5>
+        <fieldset>
+            <label for="empresa">Empresa:</label>
+            <input type="text" name="empresa" id="empresa"><br>
+            <label for="endereco">Endereço Completo:</label>
+            <input type="text" name="endereco" id="endereco"><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade"><br>
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="RO" selected>Rondônia</option>
+                <option value="MG" selected>Minas Gerais</option>
+                <option value="BH" selected>Belo Horizonte</option>
+                <option value="RN" selected>Rio Grande do Norte</option>
+                <option value="PE" selected>Pernambuco</option>
+                <option value="PB" selected>Paraíba</option>
+                <option value="MT" selected>Mato Grosso</option>
+                <option value="SP" selected>São Paulo</option>
+            </select><br>
+            <label for="funcionarios">Quant. Funcionários:</label>
+            <input type="number" name="funcionarios" id="funcionarios"><br>
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes" cols="30" rows="10"></textarea>
+        </fieldset>
+        <label for="recibo">Recibo:</label>
+        <input type="checkbox" name="recibo" id="recibo">
+        <label for="msgrecibo">Emitir em nome da instituição?</label>
+    </form>
+    <input type="submit" value="Fazer Inscrição">
+</body>
+</html>
