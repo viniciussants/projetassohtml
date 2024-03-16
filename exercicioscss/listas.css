@@ -1,0 +1,14 @@
+li{
+    border: 2px black solid;
+}
+
+#ul1{
+  list-style-type: square;
+  list-style-position: inside;
+}
+#ul2{
+    list-style-image: url('http://icons8.com.br/icon/79765/unpin');
+}
+ol{
+    list-style-type: upper-roman;
+}
