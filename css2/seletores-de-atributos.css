@@ -1,0 +1,16 @@
+[title] {
+    border: 4px solid red;
+}
+[title="Página 3"] {
+    color: green;
+}
+[title ~="CSS"] {
+    padding: 10px;
+    background: yellow;
+}
+[title ^="Link"] {
+    margin-right: 30px;
+}
+[href$="link"] {
+    outline: 4px solid blue;
+}
