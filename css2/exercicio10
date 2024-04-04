@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Utilizando seletores de pseudo-elementos no CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="selet-pseudo-elementos.css">
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet , consectetur adipiscing elit .</h1>
+    <p> 
+        Lorem ipsum dolor sit amet , consectetur adipiscing elit . In mollis , nibh et tempor sollicitudin , orci lorem
+        iaculis sem , sit amet sodales quam massa sit amet risus . Fusce malesuada eleifend massa , ac mollis mi
+        fermentum vitae . Nullam consequat leo nunc , in ornare turpis aliquam quis . 
+    </p>
+</body>
+
+</html>
