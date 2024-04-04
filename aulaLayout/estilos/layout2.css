@@ -1,0 +1,79 @@
+html, bodu{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#princ{
+    position: relative;
+    width: 85%;
+    height: 99vh;
+    min-width: 240px;
+    min-height: 100vh;
+    border: 2px solid brown;
+    margin: auto;
+}
+#sessao1{
+    height: 99vh;
+}
+
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: aquamarine;
+}
+#div3{
+    background-color: cyan;
+}
+#div4{
+    background-color: darkmagenta;
+}
+
+#div1, #div4{
+    width: 10%;
+    min-width: 70px;
+}
+#div2, #div3{
+    width: 40%;
+    min-width: 150px;
+
+}
+.interna{
+    height: 80%;
+    padding: 0.5em;
+    border: 1.5px solid gray;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+header{
+    background-color: blueviolet;
+    width: 100%;
+    min-width: 300px;
+    height: 10%;
+    font-size: 2em;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    background-color: hotpink;
+}
+
+@media(max-widht:800px){
+    #div1, #div4{
+        width: 30%;
+    }
+    #div3, #div4{
+        width: 70%;
+    }
+
+}

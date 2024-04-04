@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: aquamarine;
+    /*
+    position: sticky;
+    top: 0px;
+    */
+}
+p{
+    background-color: black;
+    color: white;
+    width: 48vw;
+    display: inline-block;
+}
+
+#position{
+    margin-top: 5vh;
+    border: 1px solid black;
+    background-color:darkcyan;
+    height: 40vh;
+    overflow: auto;
+}
+
+.int{
+    width: 25%;
+    height: 80%;
+    border: 1px dotted black;
+    float: left;
+    box-sizing: border-box;
+}
+
+#div1{
+    background-color: darkblue;
+    /*
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    */
+}
+#div2{
+    background-color: blueviolet;
+}
+#div3{
+    background-color: rgb(26, 255, 0);
+}
+#div4{
+    background-color: rgb(225, 48, 131);
+    /*
+    position: sticky;
+    top: 0;
+    */
+}
+#div5{
+    background-color: rgb(255, 140, 0);
+}
+#rodape{
+    background-color: rgb(255, 213, 0);
+    position: relative;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+    height: 20%;
+}
